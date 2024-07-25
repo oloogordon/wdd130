@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Quiz Form">
+        <meta name="author" content="Gordon Oloo">
         <title>WDD 130 | HTML Form - User Poll </title>
         <link href="styles/quiz.css" rel="stylesheet">
     </head>
@@ -15,22 +17,22 @@
             <fieldset>
                 <legend>Question 1</legend>
                 <div class="form-item column2">
-                    <label for="fullname">Which HTML element should be on the first line of any html document?</label>
-                    <input type="text" id="fullname" name="fullname">
+                    <label for="q1">Which HTML element should be on the first line of any html document?</label>
+                    <input type="text" id="q1" name="q1">
                 </div>   
                   
             </fieldset>
                 
             <fieldset>
                 <legend>Question 2</legend>
-                <label for="feedback">Where does the header element goes at the beggining or end of the body? </label>
-                <textarea id="feedback" name="feedback" rows="4"></textarea> 
+                <label for="q2">Where does the header element goes at the beggining or end of the body? </label>
+                <textarea id="q2" name="q2" rows="4"></textarea> 
             </fieldset>
             <fieldset>
                 <legend>Question 3</legend>
                 <div class="form-item column1">
-                    <label for="Browser"> what is the file extension of a css file? </label>
-                    <select id="Browser" name="browser">
+                    <label for="q3"> what is the file extension of a css file? </label>
+                    <select id="q3" name="q3">
                         <option value="chrome">.html</option>
                         <option value="mozilla">.htm</option>
                         <option value="Edge">.js</option>
@@ -40,13 +42,13 @@
                 </div>
                 
                 
-            <!--Form ELemnts will go here-->
+           
             </fieldset>
             <fieldset>
                 <legend>Question 4</legend>
                 <div class="form-item column1">
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" name="pet" id="pet">
+                    <label for="q4">How many Body elements should be in a html document?</label>
+                    <input type="number" name="q4" id="q4">
                 </div>
             </fieldset>
             <button type="submit">Submitt Poll</button>
