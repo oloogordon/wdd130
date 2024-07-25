@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll </title>
+        <link href="styles/poll-form.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>WDD130 | Gordon Oloo | HTML Form - User Poll</h1>
+        </header>
+        <main>
+        <form>
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">    
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                    <!-- Form Elements WIll go here-->
+                </div>    
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="Browser"> What is your favorite internet Browser</label>
+                    <select id="Browser" name="browser">
+                        <option value="chrome">chrome</option>
+                        <option value="mozilla">Mozilla</option>
+                        <option value="Edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="safari">Safari</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+                <label for="feedback">list the places you have lived</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Still Waster Florida, Amsterdam Nedherlands, Timbuktu Mali"></textarea>
+            <!--Form ELemnts will go here-->
+            </fieldset>
+            <button type="submit">Submitt Poll</button>
+        </form>
+        </main>
+
+      <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Gordon Oloo </p>
+      </footer>
+        
+
+    </body>
+</html>
