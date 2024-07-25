@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll </title>
+        <link href="styles/quiz.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+        <form>
+            <fieldset>
+                <legend>Question 1</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Which HTML element should be on the first line of any html document?</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>   
+                  
+            </fieldset>
+                
+            <fieldset>
+                <legend>Question 2</legend>
+                <label for="feedback">Where does the header element goes at the beggining or end of the body? </label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea> 
+            </fieldset>
+            <fieldset>
+                <legend>Question 3</legend>
+                <div class="form-item column1">
+                    <label for="Browser"> what is the file extension of a css file? </label>
+                    <select id="Browser" name="browser">
+                        <option value="chrome">.html</option>
+                        <option value="mozilla">.htm</option>
+                        <option value="Edge">.js</option>
+                        <option value="brave">.css</option>
+                        
+                    </select>
+                </div>
+                
+                
+            <!--Form ELemnts will go here-->
+            </fieldset>
+            <fieldset>
+                <legend>Question 4</legend>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
+            </fieldset>
+            <button type="submit">Submitt Poll</button>
+        </form>
+        </main>
+
+      <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Gordon Oloo </p>
+      </footer>
+    </body>
+</html>
