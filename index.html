@@ -1,46 +1,163 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    
-    <head>
-        
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title> Gordon Oloo | WDD 130 </title>
-        <meta name="description" content="Gordon Oloo, web fundamentals, project page">
-        <meta name="author" content="Gordon Oloo">
-        <link href="styles/style.css" rel="stylesheet">
-        
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Wellness Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Elegant font */
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; /* Soft, calming background */
+            color: #333; /* Dark, readable text */
+            line-height: 1.6; /* Improved readability */
+        }
 
-    <body>
-        <header>
+        header {
+            background-color: #fff; /* White header */
+            padding: 20px;
+            text-align: center; /* Centered header content */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555; /* Slightly lighter link color */
+            font-weight: 500;
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            color: #007bff; /* Blue hover effect (consider a calming color) */
+        }
+
+        section {
+            padding: 40px;
+            max-width: 960px; /* Content width */
+            margin: 20px auto; /* Centered section */
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px; /* Rounded corners */
+        }
+
+        h1, h2, h3 {
+            color: #444; /* Slightly darker headings */
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* Circular image */
+            object-fit: cover;  /* Prevents image distortion*/
+            margin: 20px auto; /* Centered image */
+            display: block; /* Prevents image from affecting text flow */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More prominent shadow */
+        }
+
+        .project {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee; /* Subtle project separator */
+            padding-bottom: 20px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Prevents image from affecting text flow */
+            margin-bottom: 10px;
+            border-radius: 4px; /* Slightly rounded image corners */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Responsive Design (Simple Example) */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+            nav li {
+                display: block; /* Stack navigation on smaller screens */
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gordon Oloo Mental Health Advocacy</h1>
         <nav>
-            <a href="#">HOme</a>
-            <a href="wwr/">Rafting website</a>
-            <a href="wwr/site-plan-rafting.html">Raftingsite plan</a>
-            <a href="https://linkedin.com">Linkedin</a>
-            <a href="https://facebook.com">Facebook</a>
-        </nav>
-        </header>
-        <main>
-            <h1> Gordon Oloo | WDD 130</h1>
-            <img src="images/profile.jpg" alt="alternative text" width="200">
-            
-            <p> Hello my name is Gordon and am from kenya</p>
-            <ul class="box">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/nairobi-kenya-temple?lang=eng">Nairobi Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng">Accra Temple</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/austin-texas-temple?lang=eng">Texas Temple</a></li>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Advocacy</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </main>
-        <aside class="box">
-            <h2>Kitale, Kenya</h2>
-            <img src="images/kenya.jpeg" alt="country kenya">
-            <p>Located in east africa, population over 50 million and it's a developing country</p>
-        </aside>
-        <footer>
-            &copy; 2024 Gordon Kitale,Kenya
-        </footer>
-    </body>
-    <!-- last modified 30th june 2024 8:10PM -->
+        </nav>
+    </header>
+
+    <section id="about">
+        <img src="placeholder-profile.jpg" alt="Your Profile" class="profile-image">
+        <h2>About Me</h2>
+        <p>Passionate about helping the fellow man. Adhering to the core values:
+Justice, Equality, Loyalty, Honesty, Kindness and Compassion
+Broad experience working with & interacting with clients and colleagues
+from different regions the world over.</p>
+    </section>
+
+    <section id="services">
+        <h2>Mental Health Advocacy</h2>
+        <p>For the past six years, I've dedicated myself to a mission: to break down the stigma surrounding mental health and offer support to those in need. My journey began with a simple yet powerful tool: social media. Through inspirational images and videos, I aimed to create a safe space where individuals could connect, find solace, and understand that they are not alone. I’ve worked tirelessly to reach individuals experiencing mental health struggles, especially those battling suicidal thoughts.
+The journey started with a deep desire to make a difference. 
+I recognized that many people, especially in times of crisis, often feel alone and unheard. Social media offered a unique opportunity to connect with those who might otherwise feel isolated. By sharing uplifting content—whether a comforting quote, an empowering message, or a reminder that they are not alone—I’ve aimed to create a space of solace and understanding.
+But my commitment extends beyond online platforms. I actively provide live chat support to individuals experiencing suicidal crises. These interactions, while challenging, are incredibly rewarding. Witnessing someone move from despair to hope is an experience that fuels my passion and drives me to continue this work.
+Throughout the years, the most rewarding part of this journey has been seeing people’s lives change. I’ve had the privilege of connecting with countless individuals who have found healing, strength, and, in many cases, a reason to keep going.
+My advocacy is not just about raising awareness; it's about fostering a community of support and understanding. I believe that by sharing stories, offering a listening ear, and promoting self-care, we can create a world where mental health is prioritized and everyone has access to the support they deserve.
+</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <img src="placeholder-project1.jpg" alt="Project 1">
+            <h3>#Reach Out Social media campaign</h3>
+            <p>A project where i created and shared a series of inspirational images and videos aimed at uplifting those struggling with mental health. Each post was designed to provide comfort, encouragement, and a reminder that individuals are not alone in their struggles. The campaign grew into a trusted source of hope for your followers, with content focused on mental wellness, resilience, and recovery..</p>
+        </div>
+
+        <div class="project">
+            <img src="placeholder-project2.jpg" alt="Project 2">
+            <h3>Live Chat Support for Suicidal Crisis (24/7 Peer Support Initiative</h3>
+            <p>A project where i offered real-time live chat support to individuals in suicidal crisis, providing a safe space for people to reach out during their most difficult moments. The initiative helped connect people with someone who could listen, provide emotional support, and guide them toward further resources for professional care. This direct support has saved lives and created an ongoing conversation about the importance of peer-based mental health care.</p>
+        </div>
+
+        </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>oloogordon@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Gordon Oloo</p>
+    </footer>
+
+</body>
 </html>
